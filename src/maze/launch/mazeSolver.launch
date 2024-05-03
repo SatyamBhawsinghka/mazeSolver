@@ -1,0 +1,9 @@
+ <launch>
+
+ <group if="$(arg start_mazeSolver)">
+    <node pkg="maze" type="maze_solve.py" name="maze_solve" output="screen" />
+    <node pkg="maze" type="wall_detection_node" name="wall_det" output="screen" />
+    <node pkg="maze" type="action_server_node" name="act_server" output="screen" />
+  </group>
+
+ </launch>

@@ -1,0 +1,6 @@
+bool detection_flag
+float32 actMinLaserValue
+float32 turnSpeed
+---
+bool success
+int32 goal
